@@ -10,12 +10,16 @@ As you write code, you should regularly add comments to clarify the function of 
 
 // Try creating one of each type of comment.
 
+//This is a comment
 
+/*this is a 
+multi-line coment */
 
 
 
 // 2 Basic JavaScript: Declare JavaScript Variables
-// In computer science, data is anything that is meaningful to the computer. JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
+// In computer science, data is anything that is meaningful to the computer. JavaScript provides eight different data types 
+//which are undefined, null, boolean, string, symbol, bigint, number, and object.
 
 // For example, computers distinguish between numbers, such as the number 12, and strings, such as "12", "dog", or "123 cats", which are collections of characters. Computers can perform mathematical operations on a number, but not on a string.
 
@@ -29,6 +33,8 @@ As you write code, you should regularly add comments to clarify the function of 
 // creates a variable called ourName. In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.
 
 // Use the var keyword to create a variable called myName.
+
+var myVar
 
 
 
@@ -52,6 +58,7 @@ As you write code, you should regularly add comments to clarify the function of 
 var a;
 
 // Only change code below this line
+a = 7;
 
 
 
@@ -68,7 +75,9 @@ var a;
 // Define a variable a with var and initialize it to a value of 9.
 
 
+var num = 9
 
+var apples = 13
 
 
 // 5 Basic JavaScript: Understanding Uninitialized Variables
@@ -78,9 +87,9 @@ var a;
 
 
 // Only change code below this line
-var a;
-var b;
-var c;
+var a = 5;
+var b = 10;
+var c = 'Kobe'
 // Only change code above this line
 
 a = a + 1;
@@ -109,9 +118,9 @@ var properCamelCase;
 var TitleCaseOver;
 
 // Variable assignments
-STUDLYCAPVAR = 10;
-PRoperCAmelCAse = "A String";
-tITLEcASEoVER = 9000;
+studlyCapVar= 10;
+properCamelCase = "A String";
+titleCaseCover= 9000;
 
 // 7 Basic JavaScript: Add Two Numbers with JavaScript
 // Number is a data type in JavaScript which represents numeric data.
@@ -124,7 +133,7 @@ tITLEcASEoVER = 9000;
 
 // myVar = 5 + 10; // assigned 15
 // Change the 0 so that sum will equal 20.
-var sum = 10 + 0;
+var sum = 10 + 10;
 
 // 8 Basic JavaScript: Subtract One Number from Another with JavaScript
 // We can also subtract one number from another.
@@ -135,7 +144,7 @@ var sum = 10 + 0;
 
 // myVar = 12 - 6; // assigned 6
 // Change the 0 so the difference is 12.
-var difference = 45 - 0;
+var difference = 45 - 33;
 
 // 9 Basic JavaScript: Multiply Two Numbers with JavaScript
 // We can also multiply one number by another.
@@ -146,7 +155,7 @@ var difference = 45 - 0;
 
 // myVar = 13 * 13; // assigned 169
 // Change the 0 so that product will equal 80.
-var product = 8 * 0;
+var product = 8 * 10;
 
 // 10 Basic JavaScript: Divide One Number by Another with JavaScript
 // We can also divide one number by another.
@@ -157,4 +166,4 @@ var product = 8 * 0;
 
 // myVar = 16 / 2; // assigned 8
 // Change the 0 so that the quotient is equal to 2.
-var quotient = 66 / 0;
+var quotient = 66 / 33;
